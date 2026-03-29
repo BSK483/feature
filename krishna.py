@@ -24,3 +24,16 @@ num = float(input("Enter a number: "))
 sqrt = math.sqrt(num)
 # Display the result
 print("The square root of", num, "is:", sqrt)
+
+//// code 4 is ready /////
+# This program checks if a number is prime
+num = int(input("Enter a number: "))
+if num > 1:
+   for i in range(2, int(num/2)+1):
+       if (num % i) == 0:
+           print(num, "is not a prime number")
+           break
+   else:
+       print(num, "is a prime number")
+else:
+   print(num, "is not a prime number")
